@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    box-sizing: border-box;
+    
+}
+.navItems{
+  @apply mx-[0.65rem] text-xs flex items-center;
+}
+.transparentBorder{
+  @apply  border-b-[3px] border-b-transparent;
+}
